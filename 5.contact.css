@@ -1,0 +1,85 @@
+.clear
+{
+    clear: both;
+}
+.mt-8{
+    margin-top: 8px !important;
+}
+.mt-16{
+    margin-top: 16px !important;
+}
+.row{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.row::after
+{
+    content: '';
+    display: block;
+    clear: both;
+}
+.col
+{
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.col-half{
+    width: 50%;
+}
+.col-full {
+    width: 100%;
+}
+.text-center
+{
+    text-align: center;
+}
+.contact
+{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 812px;
+    padding: 64px 16px;
+}
+.contact-content
+{
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+.contact-infor
+{
+    font-size: 18px;
+    line-height: 1.6;
+}
+.contact-infor ion-icon
+{
+    width: 32px;
+    display: inline-block;
+}
+.contact-form
+{
+    font-size: 15px;
+}
+.form-control
+{
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    outline: none;
+}
+.form-submit-btn
+{
+    float: right;
+    font-size: 15px;
+    color: white;
+    background-color: #000;
+    border: none;
+    padding: 10px 16px;
+}
+.form-submit-btn:hover
+{
+    background-color: #ccc;
+    color: black;
+    cursor: pointer;
+}

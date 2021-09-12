@@ -1,0 +1,122 @@
+.tour
+{
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 64px 16px;
+}
+.tour .tour__title
+{
+    color: white;
+}
+.tour .tour__ul
+{
+    position: relative;
+    list-style: none;
+    background-color: white;
+    color: black;
+    left: 50%;
+    text-align: left;
+    margin-top: 35px;
+    transform: translateX(-50%);
+    border: 1px solid black;
+    max-width: 770px;
+}
+.tour .tour__ul .tour__li
+{
+    padding: 9px 16px;
+    width: auto;
+    border: 1px solid #ddd;
+    font-weight: 300;
+    color: #757575;
+}
+.tour .tour__ul .sold-out
+{
+    margin-left: 16px;
+    padding: 2px 8px;
+    font-weight: 400;
+    color: white;
+    background-color: var(--soldout-color);
+}
+.tour .tour__ul .number
+{
+    color: white;
+    border-radius: 50%;
+    float: right;
+    margin-top: -3px;   
+    margin-right: 16px;
+    width: 24px;
+    height: 24px;
+    text-align: center; 
+    line-height: 24px;
+    background-color: var(--primary-color);
+}
+
+.tour .tour-book
+{
+    position: relative;
+    display: flex;
+    margin: 32px 8px;
+    max-width: 770px;
+    padding-bottom: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.tour .tour-book__item:first-child
+{
+    margin-left: 0px;
+}
+.tour .tour-book__item
+{
+    margin-left: 15px;
+    text-align: left;
+    background-color: white;
+}
+.tour-book .tour-book__item--img
+{
+    width: 100%;
+}
+.tour-book .tour-book__item--img:hover
+{
+    opacity: 0.7;
+}
+
+.tour-book__container--title
+{
+    font-weight: 700;
+}
+
+.tour-book__container--title,
+.tour-book__container--des
+{
+    margin: 15px 0;
+    padding: 0 16px;
+    font-size: 15px;
+    line-height: 1.4;
+}
+.tour-book__container--date
+{
+    margin: 15px 0;
+    padding: 0 16px;
+    font-weight: 400;
+    color: #757575;
+}
+.tour-book__container--btn
+{
+    border: 1px solid transparent;
+    background: var(--primary-color);
+    color: white;
+    font-size: 15px;
+    padding: 8px 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    font-weight: 400;
+}
+.tour-book__container--btn:hover
+{
+    background-color: #757575;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+

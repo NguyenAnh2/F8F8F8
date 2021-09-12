@@ -1,0 +1,129 @@
+.modal.open
+{
+    display: flex;
+}
+
+.modal
+{
+    
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.modal-container
+{
+    position: relative;
+    background: #fff;
+    width: 900px;
+    max-width: calc(100% - 32px);
+    min-height: 470px;
+    animation: modalFadeIn ease .4s;
+}
+.modal-header
+{
+    background: #009688;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    font-size: 30px;
+    color: white;
+}
+.modal-header-text
+{
+    margin-left: 16px;
+    letter-spacing: 4px;
+}
+.modal-close
+{
+    position: absolute;
+    color: white;
+    right: 0;
+    top: 0;
+    line-height: 36px;
+    padding: 8px 16px;
+    font-size: 16px;
+}
+.modal-close:hover
+{
+    background-color: #ccc;
+    color: black;
+    cursor: pointer;
+}
+.modal-body
+{
+    padding: 0.15px 16px;
+}
+.modal-label
+{
+    font-size: 15px;
+    margin: 16px 0 10px;
+}
+.modal-input
+{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.modal-label,
+.but-tickets
+{
+    display: block;
+}
+.buy-tickets
+{
+    width: 100%;
+    padding: 16px;
+    margin:16px 0;
+    background-color: #009688;
+    border: 1px solid transparent;
+    font-size: 15px;
+    color: white;
+    font-size: 700;
+    text-transform: uppercase;
+}
+.buy-tickets:hover
+{
+    background: #ccc;
+    color: black;
+    cursor: pointer;
+}
+.modal-footer
+{
+    font-size: 15px;
+    margin: 15px 0;
+    float: right;
+    padding-right: 16px;
+}
+.modal-footer a
+{
+    color: #009688;
+}
+
+@keyframes modalFadeIn {
+    from
+    {
+        transform: translateY(-120px);
+        opacity: 0;
+    }
+    to 
+    {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 444px) {
+    .modal-footer a {
+        color: red;
+    }
+}

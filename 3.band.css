@@ -1,0 +1,47 @@
+.band
+{
+    text-align: center;
+    padding: 64px 16px;
+    margin: 0 auto;
+}
+.section-heading1
+{
+    font-size: 30px;
+    letter-spacing: 4px;
+    word-spacing: 4px;  
+    margin: 15px 0;
+    font-weight: 500;
+}
+.section-heading2
+{
+    color: var(--hover-color);
+    margin: 20px 0;
+}
+.band .band__des
+{
+    position: relative;
+    max-width: 770px;
+    line-height: 1.4;
+    margin: 15px 0;
+    left: 50%;
+    font-size: 15px;
+    transform: translateX(-50%);
+    text-align: justify ;
+}
+.band .band__img
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    padding: 32px 0;
+}
+.band .band__img .band__img--img-text
+{
+    margin: 15px 0;
+}
+.band .band__img .band__img--img-img
+{
+    border-radius: 4px;
+    width: 60%;
+    margin-bottom: 16px;
+}

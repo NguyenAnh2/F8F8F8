@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3School</title>
+    <link rel="icon" href="https://images.unsplash.com/photo-1527283404347-aa637a44e935?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80" type="image/x-icon" />
+    <link rel="stylesheet" href="1.header.css">
+    <link rel="stylesheet" href="2.slider.css">
+    <link rel="stylesheet" href="3.band.css">
+    <link rel="stylesheet" href="4.tour.css">
+    <link rel="stylesheet" href="modal.css">
+    <link rel="stylesheet" href="5.contact.css">
+    <link rel="stylesheet" href="6.map.css">
+    <link rel="stylesheet" href="7.footer.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+    <body>
+
+        <!-- phần main bắt đầu -->
+
+        <div id="main">
+
+            <!-- Phần header bắt đầu -->
+
+        <div id="head"  class="header">    
+                    <ul class="nav">
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#band">BAND</a></li>
+                        <li><a href="#tour">TOUR</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                        <li>
+                            <a class="more" href="#">MORE<ion-icon class="icon" name="caret-down-outline"></ion-icon></a>
+                            <ul class="dropdown">
+                                <li><a class="more__links" href="#">Merchandise</a></li>
+                                <li><a class="more__links" href="#">Extras</a></li>
+                                <li><a class="more__links" href="#">Media</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="merch" href="#">MERCH</a></li>
+                        <ion-icon class="icon-search" name="search-outline"></ion-icon>
+                    </ul>
+                    <div id="mobile-menu" class="mobile-menu-btn"><ion-icon name="menu-outline"></ion-icon>
+                    </div>
+        </div>
+
+        <!-- Phần header kết thúc -->
+
+        <!-- phần slider bắt đầu -->
+        
+        <div class="slider">
+            <div class="img__text">
+                <h3 class="img__title">Chicago</h3>
+                <p class="img__des">Thank you, Chicago - A night we won't forget.</p>
+            </div>
+        </div>
+        
+        <!-- phần slider kết thúc -->
+
+        <!-- phần band bắt đầu -->
+        
+        <div id="band" class="band">
+            <p class="section-heading1 band__title">THE BAND</p>
+            <p class="section-heading2 band__slo"><i> We love music </i></p>
+            <p class="band__des">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="band__img">
+                <div class="band__img--img">
+                    <p class="band__img--img-text">Name</p>
+                    <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="name" class="band__img--img-img">
+                </div>
+                <div class="band__img--img">
+                    <p class="band__img--img-text">Name</p>
+                    <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="name" class="band__img--img-img">
+                </div>
+                <div class="band__img--img">
+                    <p class="band__img--img-text">Name</p>
+                    <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="name" class="band__img--img-img">
+                </div>
+            </div>
+        </div>
+
+        <!-- phần band kết thúc -->
+
+        <!-- phần tour bắt đầu -->
+
+        <div id="tour" class="tour">
+            <p class="section-heading1 tour__title">TOUR DATES</p>
+            <p class="section-heading2 tour__slo"><i>Remember to book your tickets!</i></p>
+
+            <ul class="tour__ul">
+                <div class="tour__li">September <span class="sold-out"> Sold out</span></div>
+                <div class="tour__li">October <span class="sold-out"> Sold out</span></div>
+                <div class="tour__li">November <span class="number">3</span></div>
+            </ul>
+
+            <div class="tour-book">
+                
+                <div class="tour-book__item">
+                    <img src="https://www.w3schools.com/w3images/newyork.jpg" alt="newyork" class="tour-book__item--img">
+                        <h4 class="tour-book__container--title">New York</h4>
+                        <p class="tour-book__container--date">Fri 27 Nov 2016</p>
+                        <p class="tour-book__container--des">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <button class="tour-book__container--btn   js-buy-ticket">Buy Tickets</button>
+                </div>
+
+                <div class="tour-book__item">
+                    <img src="https://www.w3schools.com/w3images/paris.jpg" alt="paris" class="tour-book__item--img">    
+                    <h4 class="tour-book__container--title">Paris</h4>
+                        <p class="tour-book__container--date">Sat 28 Nov 2016</p>
+                        <p class="tour-book__container--des">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <button class="tour-book__container--btn   js-buy-ticket">Buy Tickets</button>
+                </div>
+
+                <div class="tour-book__item">
+                    <img src="https://www.w3schools.com/w3images/sanfran.jpg" alt="sanfran" class="tour-book__item--img">
+                        <h4 class="tour-book__container--title">San Francisco</h4>
+                        <p class="tour-book__container--date">Sun 29 Nov 2016</p>
+                        <p class="tour-book__container--des">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <button class="tour-book__container--btn   js-buy-ticket">Buy Tickets</button>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- phần tour kết thúc -->
+
+
+        <!-- phần contact bắt đầu -->
+
+        <div id="contact" class="contact">
+            <p class="section-heading1 text-center">CONTACT</p>
+            <p class="section-heading2 text-center"><i> Fan? Drop a note! </i></p>
+
+            <div class="row contact-content">
+                <div class="col col-half contact-infor">
+                    <p><ion-icon name="location"></ion-icon> Chicago, US</p>
+                    <p><ion-icon name="call"></ion-icon> Phone: +00 151515</p>
+                    <p><ion-icon name="mail"></ion-icon> Email: mail@mail.com</p>
+                </div>
+                <div class="col col-half contact-form">
+                    <form action="">
+                        <div class="row">
+                            <div class="col col-half">
+                                <input type="text" placeholder="Name" required class="form-control">
+                            </div>
+                            <div class="col col-half s-mt-8">
+                                <input type="email" placeholder="Email" required class="form-control">
+                            </div>
+                        </div>
+                        <div class="row mt-8">
+                            <div class="col col-full">
+                                <input type="text" placeholder="Message" required class="form-control">
+                            </div>
+                        </div>
+                        <input class="form-submit-btn s-full-width mt-16" type="submit" value="SEND">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- phần contact kết thúc -->
+
+
+            <!-- phần map bắt đầu -->
+    
+            <img src="https://www.w3schools.com/w3images/map.jpg" alt="" class="img-map">
+            
+            <!-- phần map kết thúc -->
+
+            <!-- phần footer bắt đầu -->
+
+            <div class="footer">
+            
+            <div class="footer-icon  text-center">
+                <ion-icon name="logo-facebook"></ion-icon>
+                <ion-icon name="logo-instagram"></ion-icon>
+                <ion-icon name="logo-snapchat"></ion-icon>
+                <ion-icon name="logo-paypal"></ion-icon>
+                <ion-icon name="logo-twitter"></ion-icon>
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+            <div class="footer-text  text-center">
+                <p>Powered by <a target="_blank" href="https://www.w3schools.com">w3.css</a> </p>
+            </div>
+        </div>
+
+            <!-- phần footer kết thúc -->
+
+    </div>
+
+<!-- phần main kết thúc -->
+        
+        
+    <!-- phần modal bắt đầu -->
+    <div class="modal js-modal">
+        
+        <div class="modal-container js-modal-container">
+            
+            <div class="modal-close js-modal-close"><ion-icon name="close"></ion-icon></div>
+            <header class="modal-header">
+                <ion-icon name="briefcase"></ion-icon>
+                <p class="modal-header-text">Tickets</p>
+            </header>
+            
+            <div class="modal-body">
+                <label class="modal-label" for="price">
+                    <ion-icon name="cart"></ion-icon>
+                    Tickets, $15 per person
+                </label>
+                <input class="modal-input" type="text" placeholder="How many?" id="price">
+                
+                <label class="modal-label" for="email">
+                    <ion-icon name="person"></ion-icon>
+                    Send to
+                </label>
+                <input class="modal-input" type="email" placeholder="Enter email" id="email">
+                
+                <button class="buy-tickets">
+                    Pay
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                </button>
+            </div>
+            
+            <footer class="modal-footer">
+                <p class="modal-help">Need <a id="home" href="">help?</a>
+                </p>
+            </footer>
+        </div>
+    </div>
+    <!-- phần modal kết thúc -->
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- đoạn js để modal ẩn hiện -->
+    <script>
+        const buyBtns = document.querySelectorAll('.js-buy-ticket');
+        const modal = document.querySelector('.js-modal')
+        const modalClose = document.querySelector('.js-modal-close')
+        const modalContainer = document.querySelector('.js-modal-container')
+
+        //hàm hiển thì form modal mua vé. thêm class open vào modal
+        function showBuyTickets(){
+            modal.classList.add('open');
+        }
+        //hàm hiển thì form modal mua vé. gỡ bỏ class open vào modal
+        function closeBuyTickets(){
+        modal.classList.remove('open');
+        }
+        //lặp qua từng thẻ btn và nghe hành vi click vào tất cả các phần tử
+        for(const buyBtn of buyBtns) {
+            buyBtn.addEventListener('click', showBuyTickets)
+        }
+        //nghe hành vi click vào close. 'click' là hành vi khi click còn closeBuyTickets là hàm được gọi ra
+        modalClose.addEventListener('click', closeBuyTickets)
+
+        modal.addEventListener('click', closeBuyTickets);
+        
+        modalContainer.addEventListener('click', function(event){
+            event.stopPropagation()
+        });
+
+    </script>
+
+    <!-- đoạn js để đóng mở menu header-->
+    <script>
+        var header = document.getElementById('head');
+        var mobileMenu = document.getElementById('mobile-menu');
+        var headerHeight = header.clientHeight;
+
+        //Đóng mở mobile menu
+        mobileMenu.onclick = function(){
+            var isClosed = header.clientHeight === headerHeight;
+            if(isClosed) {
+                header.style.height = 'auto';
+            } else {
+                header.style.height = null;
+            }
+        };
+
+        //Tự động chọn khi click vào các elements trong thẻ ul trong header
+
+        var menuItems = document.querySelectorAll('.nav li a[href*="#"]'); 
+        for(var i = 0 ; i < menuItems.length; i++){
+            var menuItem = menuItems[i];
+            menuItem.onclick = function(){
+                header.style.height = null;
+            };
+        };
+    </script>
+    </body>
+</html>

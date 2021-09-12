@@ -1,0 +1,33 @@
+.footer
+{
+    padding: 64px 16px;
+}
+
+.footer::after
+{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.footer-icon
+{
+    font-size: 24px;
+    color: #757575;
+    margin-bottom: 26px;
+}
+.footer-icon ion-icon:hover,
+.footer-text a:hover
+{
+    opacity: 0.6;
+}
+.footer-text a
+{
+    color: #757575;
+}
+.footer-text p
+{
+    color: #757575;
+    font-size: 15px;
+    margin: 15px 0;
+}

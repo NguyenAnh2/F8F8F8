@@ -1,0 +1,94 @@
+@media (min-width: 1024px) {
+    .header .mobile-menu-btn
+    {
+        display: none;
+    }
+    .header .nav .merch
+    {
+        display: none;
+    }
+    .contact-form
+    {
+    margin-top: -8px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 1023px) and (min-width: 740px)
+{
+    .header .mobile-menu-btn
+    {
+        display: none;
+    }
+    .header .nav .merch
+    {
+        display: none;
+    }
+    .contact-form
+    {
+    margin-top: -8px;
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 739px)
+{
+    .s-full-width
+    {
+        width: 100% !important;
+    }
+    .s-mt-8
+    {
+        margin-top: 8px !important;
+    }
+    .header
+    {
+        overflow: hidden;
+    }
+    .header .icon-search
+    {
+        display: none;
+    }
+    .header .nav .more
+    {
+        display: none;
+    }
+    .img__title,
+    .img__des
+    {
+        display: none;
+    }
+
+    .nav > li{
+        display: block;
+    }
+    .nav li a,
+    .nav
+    {
+        display: block;
+    }
+    .tour .tour-book,
+    .band .band__img
+    {
+        flex-direction: column;
+    }
+    .tour .tour-book__item
+    {
+        margin: 8px 0;
+    }
+    .col-half
+    {
+        width: 100%;
+    }
+    .contact-form
+    {
+        margin-top: 16px;
+    }
+    .tour-book__container--btn
+    {
+        width: 90% !important;
+        margin-left: 16px;
+        padding: 12px 0 ;
+    }
+}
